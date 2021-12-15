@@ -1,0 +1,59 @@
+.button1 {
+  transition-duration: 0.4s;
+  border: none;
+}
+.button1:hover {
+  background-color: #0d6efd;
+  color: white;
+}
+.button2 {
+  transition-duration: 0.4s;
+  border: none;
+}
+.button2:hover {
+  background-color: #198754;
+  color: white;
+}
+.button3 {
+  transition-duration: 0.4s;
+  border: none;
+}
+.button3:hover {
+  background-color: #dc3545;
+  color: white;
+}
+.topbar {
+  background: rgb(243, 240, 240);
+  height: 40px;
+  font-size: 14px;
+  transition: all 0.5s;
+  z-index: 996;
+  display: flex;
+  padding: 5px;
+}
+
+.topbar .social-links a {
+  color: #5f92c2;
+  padding-left: 15px;
+  padding-top: 15px;
+  display: inline-block;
+  line-height: 1px;
+  transition: 0.3s;
+}
+.topbar .social-links a:hover {
+  color: #5fdd0a;
+}
+
+.topbar .social-links a:first-child {
+  border-left: 0;
+  padding: 10px;
+}
+
+.bg-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/header.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
